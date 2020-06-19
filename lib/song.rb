@@ -1,7 +1,6 @@
-# Make your shoe class here!
 class Song
   attr_accessor :name, :artist, :genre
-  attr_reader :brand
+#  attr_reader :brand
   @@count=0
   GENRES=[]
   ARTISTS=[]
