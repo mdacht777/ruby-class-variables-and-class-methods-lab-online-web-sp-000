@@ -23,4 +23,8 @@ class Song
     @@artists.uniq
   end
 
+  def self.genres
+#    @@artists.uniq.map { |x| [x, @@artists.count(x)] }.to_h
+    @@genres.uniq
+  end
 end
