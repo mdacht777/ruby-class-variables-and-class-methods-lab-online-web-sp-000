@@ -6,8 +6,8 @@ class Song
   GENRES=[]
   ARTISTS=[]
  
-  def initialize(title,artist,genre)
-    @title = title
+  def initialize(name,artist,genre)
+    @name = name
     @artist = artist
     ARTISTS << artist if !ARTISTS.include?(artist) 
     @genre = genre
