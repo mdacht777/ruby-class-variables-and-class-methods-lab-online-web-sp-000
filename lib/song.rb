@@ -11,7 +11,6 @@ class Song
     ARTISTS << artist if !ARTISTS.include?(artist) 
     @genre = genre
     GENRES << genre if !GENRES.include?(genre) 
-    @title = title
     @@count+=1
   end
  
