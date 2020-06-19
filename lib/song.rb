@@ -4,7 +4,7 @@ class Song
   attr_reader :brand
   @@count=0
   GENRES=[]
-  ARTIST=[]
+  ARTISTS=[]
  
   def initialize(title,artist,genre)
     @title = title
