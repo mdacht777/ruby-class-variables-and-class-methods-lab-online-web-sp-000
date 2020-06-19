@@ -3,12 +3,12 @@ class Song
 #  attr_reader :brand
   @@count=0
   GENRES=[]
-  ARTISTS=[]
+  @@artists=[]
  
   def initialize(name,artist,genre)
     @name = name
     @artist = artist
-    ARTISTS << artist if !ARTISTS.include?(artist) 
+    @@artists << artist if !@@artists.include?(artist) 
     @genre = genre
     GENRES << genre if !GENRES.include?(genre) 
     @@count+=1
