@@ -19,7 +19,7 @@ class Song
   end
 
   def self.artists
-    @@artits
+    @@artists.uniq.map { |x| [x, @@artists.count(x)] }.to_h
   end
 
 end
