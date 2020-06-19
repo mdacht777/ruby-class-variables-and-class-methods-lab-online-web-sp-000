@@ -11,11 +11,9 @@ class Song
     @@artists << artist #if !@@artists.include?(artist) 
     @genre = genre
     @@genres << genre #if !@@genres.include?(genre) 
-    @@count=3
   end
  
   def count
-    3
   end
 
   def genres
